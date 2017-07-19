@@ -1,0 +1,389 @@
+@charset"UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body, ul, li, h1, h2, p, h4 {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Noto Sans Japanese";
+	overflow-x: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top {
+	width: 100%;
+	height: auto;
+	background-image: url(./inupathy/visual_p01.jpg);
+	background-size: cover;
+	padding-top: 30px;
+	position: relative;
+}
+
+.top_select {
+	color: #ffffff;
+	float: right;
+}
+
+.top_select li {
+	display: inline-block;
+}
+
+.top_lang {
+	display: inline-block;
+	position: absolute;
+	right: 165px;
+	top: 36px;
+	border-right: 1px solid white;
+	font-size: 14px;
+}
+
+.top_sns {
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.top_lang li {
+	margin-right: 20px;
+}
+
+.top_sns li {
+	margin-right: 3px;
+}
+
+.top_container {
+	clear: both;
+	text-align: center;
+}
+
+.top_logo {
+	padding-top: 146px;
+}
+
+.top_txt {
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 10px;
+	line-height: 1.6;
+	padding: 35px 0;
+	font-weight: 200;
+}
+
+.top_cloud {
+	display: inline-block;
+	padding: 3px;
+	margin: 7px 0 150px 0;
+	border-radius: 35px;
+	transition: 0.5s;
+	background: linear-gradient(to right, #8cd4ba 0%,#f8c454 50%,#de6291 100%);
+}
+
+.top_cloud span {
+	display: inline-block;
+	color: black;
+	padding: 13px 75px;
+	border-radius: 35px;
+	background-color: white;
+	letter-spacing: 2px;
+	font-weight: 200;
+	}
+.top_cloud:hover {
+	opacity: 0.5;
+}
+
+.top_arrow {
+	display: block;
+	width: 30px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 42px;
+}
+
+.navigation {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-left: 30px;
+	background-color: white;
+	opacity: 0.7;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 0 80px 5px 0;
+	margin: 26px 0;
+	font-size: 16px;
+	opacity: 0.5;
+	color: #3c3b3a;
+	font-family: Gidole;
+	letter-spacing: 1px;
+}
+
+.navigation li:first-child,.navigation li:last-child {
+	opacity: 1;
+}
+
+.navigation img {
+	margin-bottom: -5px;
+}
+
+.movie_play {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	background-position: center top;
+	background-image: url(./inupathy/icon_play.png);
+	background-repeat: no-repeat;
+	margin: 0 -20px;
+	padding: 140px 30px;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-family: Gidole;
+}
+
+.movie {
+	border-bottom: 1px solid #fff;
+}
+.video {
+	position: relative;
+	height: 0;
+	padding: 0 0 56.25%;
+	overflow: hidden;
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video:after {
+	content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./inupathy/movie_cover.png);
+}
+
+.concept {
+	padding: 155px 0 30px 0;
+	text-align: center;
+	color: #fff;
+	background-image: url(./inupathy/about_p01.jpg);
+	background-size: cover;
+	line-height: 2.0;
+	letter-spacing: 2px;
+}
+
+.concept h1 {
+	font-weight: normal;
+	font-size: 30px;
+	padding-bottom: 35px;
+}
+
+.concept p {
+	padding-bottom: 35px;
+}
+
+.concept_arrow {
+	width: 30px;
+	height: auto;
+	display: inline-block;
+	padding-top: 54px;
+}
+
+.function_wrapper {
+	text-align: center;
+	background-color: #f3f1e9;
+}
+
+.title_title {
+	font-family: "Gidole";
+	padding: 105px 0 40px 0;
+	letter-spacing: 8px;
+	font-weight: normal;
+	font-size: 28px;
+	color: #3c3b3a;
+}
+
+.title_title img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 35px;
+}
+
+.function_wrapper > p {
+	line-height: 15px;
+	letter-spacing: 2.5px;
+	padding-bottom: 17px;
+	color: #3c3b3a;
+}
+
+.function_wrapper {
+	padding-bottom: 90px;
+
+}
+
+.function {
+	margin: 30px 18px;
+	display: inline-block;
+	background: white;
+	border-radius: 10px;
+}
+
+.function > img {
+	width: 510px;
+	height: auto;
+	border-radius: 10px 10px 0 0 / 10px 10px 0 0;
+}
+
+.function_content {
+	text-align: left;
+	padding: 28px 40px;
+}
+
+.function_content > img {
+	display: inline-block;
+}
+
+.function_content p {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 2;
+	letter-spacing: 2px;
+	color: #3c3b3a;
+	padding-left: 35px;
+}
+
+.round_border {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.hardwear {
+	text-align: center;
+}
+
+.hardwear p {
+	line-height: 30px;
+	letter-spacing: 2.5px;
+	color: #3c3b3a;
+}
+
+.hardwear > img {
+	display: inline-block;
+	padding: 40px 50px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.slider {
+	width: 24px;
+}
+
+.emotion_container {
+	margin-top: 70px;
+}
+
+.emotion_example {
+	padding: 50px 0 100px;
+}
+.emotion_example ul {
+	display: flex;
+	justify-content: center;
+}
+
+.emotion_example li {
+	margin: 0 20px;
+}
+
+.emotion_example h1 {
+	color: #a79c78;
+	font-weight: normal;
+	font-size: 20px;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+
+.emotion_example span {
+	font-family: Gidole;
+	font-size: 14px;
+	display: block;
+}
+
+.emotion_example img {
+	width: 325px;
+	border-radius: 10px;
+	margin: 15px 0;
+}
+
+.emotion_example p {
+	font-size: 14px;
+}
+
+.platform {
+	text-align: center;
+	background-color: #f3f1e9;
+	position: relative;
+}
+
+.platform1 {
+	background: #fff url(./inupathy/platform_p05.png) no-repeat;
+	background-position: top 220px left 180px;
+	position: relative;
+	width: 77%;
+	margin: 0 auto;
+	padding: 100px 30px;
+}
+
+.platform1 ul {
+	display: flex;
+	padding: 20px;
+}
+
+.platform li {
+	color: #a79c78;
+	margin: 0 60px;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.platform li:first-child {
+	position: absolute;
+}
+
+.platform1_left {
+	display: inline-block;
+	width: 40%;
+}
+
+.platform1_right {
+	display: inline-block;
+	width: 50%;
+}
+
+.platform1_right h4 {
+	color: #3c3b3a;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Gidole;
+	letter-spacing: 10px;
+	text-align: left;
+}

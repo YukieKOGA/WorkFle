@@ -1,0 +1,640 @@
+ @charset"UTF-8";
+
+html,body,ul,li,h1,span {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: auto;
+	font-family: "SST W55 Regular", 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	line-height: 1;
+}
+/* header */
+.header {
+	background: #000;
+	padding: 33px;
+	position: fixed;
+	box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.3);
+	z-index: 500;
+	width: 100%;
+	box-sizing: border-box;
+	min-width: 1200px;
+}
+
+.header_logo {
+	float: left;
+}
+
+.header_menu {
+	color: #808080;
+	display: block;
+	text-align: center;
+}
+
+.header_menu li {
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 20px;
+}
+
+.header_lang {
+	color: #808080;
+	font-size: 13px;
+	float: right;
+}
+
+.header_lang li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.header_left {
+	float: left;
+}
+
+.main {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.main01 {
+	width: 100%;
+	height: auto;
+	padding-top : 80px;
+}
+
+.main_img01pc {
+	width: 100%;
+	height: auto;
+}
+
+.main_img01sp {
+	display: none;
+}
+
+.main_img01_mask {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.main_title {
+	margin: 60px auto 30px auto;
+	width: 100%;
+}
+
+.main_titlesp {
+	display: none;
+}
+
+.main_txt {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.share_btn {
+	position: absolute;
+	top: 120px;
+	right: 40px;
+}
+
+.facebook_btn {
+	margin-right: 15px;
+}
+
+.pickups_title {
+	text-align: center;
+}
+
+.pickups_01 li {
+	position: relative;
+	float: left;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0 3px 3px 0;
+}
+
+ul {
+	font-size: 0;
+}
+
+.pickups_img {
+	width: 100%;
+	height: auto;
+}
+
+.left {
+	padding-left: 3px;
+	box-sizing: border-box;
+}
+
+.pickups_arrow {
+	position: absolute;
+	right: 10px;
+    bottom: 10px;
+    width: 26px;
+    height: 26px;
+}
+
+.pickups_txt {
+	font-size: 14.4px;
+	display: block;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-shadow: 0px 0px 5px #000;
+	box-sizing: border-box;
+	margin-top: -15px;
+	line-height: 160%;
+}
+
+.pickups_02 li {
+	position: relative;
+	float: left;
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0 3px 0 0;
+}
+
+.more {
+	text-align: center;
+    font-weight: bold;
+}
+
+.watch_more {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.watch_arrow {
+	margin: -3px 0 0 10px;
+    vertical-align: middle;
+}
+
+.vision {
+	margin: 3px 0 0 0;
+    padding: 0px 0 50px 0;
+    background: #1f1f1f;
+}
+
+.vision_message {
+	padding: 140px 20px 84px 20px;
+	text-align: center;
+}
+
+.vision_title {
+	color: #fff;
+	font-size: 41.6px;
+	padding: 0 0 68px 0;
+}
+
+.vision_txt {
+	color: #fff;
+	line-height: 200%;
+	font-size: 17.6px;
+}
+
+.vision_extent {
+	font-size: 26.4px;
+}
+
+.banner {
+	background: #1f1f1f;
+	padding: 0 0 40px 0;
+}
+
+.banner_box {
+	text-align: center;
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+	display: block;
+	box-sizing: border-box;
+	text-shadow: 0px 0px 5px #000000;
+}
+
+.banner ul {
+	padding: 0 3px 0 0;
+}
+
+.banner li {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 3px 0 0 3px;
+	position: relative;
+}
+
+.banner_title {
+	display: block;
+    font-size: 24px;
+    line-height: 160%;
+    color: #ffffff;
+}
+
+.other_image {
+	width: 100%;
+	height: auto;
+}
+
+.banner_txt {
+	display: block;
+    margin: 12px 0 0 0;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+
+}
+
+.banner_arrow {
+	position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 26px;
+    height: 26px;
+}
+
+.voice {
+	text-align: center;
+	background: #ededed;
+	padding: 70px 0 80px 0;
+}
+
+.voice_img {
+	display: inline-block;
+}
+
+.twitter_title {
+	display: inline-block;
+	font-size: 24px;
+	color: #00a6ff;
+}
+
+.twitter_account {
+	color: #00a6ff;
+	font-weight: bold;
+	display: block;
+	padding: 3px;
+}
+
+.tweet_timeline {
+	width: 60%;
+	height: 500px;
+	background: #fff;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.tweet_btn {
+	width: 60%;
+	height: 76px;
+	background: #fff;
+	text-align: center;
+	display: inline-block;
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	margin-top: 20px;
+}
+
+.tweet_img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 5px;
+}
+
+.tweet_btn p {
+	color: #00a6ff;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.attention {
+	color: #808080;
+    text-align: center;
+    line-height: 180%;
+    margin: 30px 0 0 0;
+    font-size: 11.2px;
+    font-weight: bold;
+}
+
+.blue {
+	color: #00a6ff;
+}
+
+.footer_menu {
+	background-color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.footer_menu li {
+	display: inline-block;
+	color: #1f1f1f;
+	padding-right: 25px;
+}
+
+.footer_txt {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0;
+}
+
+.footer_arrow {
+	vertical-align: middle;
+	margin-bottom: 12px;
+	padding-left: 3px;
+}
+
+.copyright {
+	background: #ededed;
+	text-align: center;
+	margin: 0;
+	line-height: 65px;
+	font-size: 13px;
+}
+
+.container {
+	min-width: 320px;
+}
+
+@media screen and (max-width:600px) {
+
+.header {
+	height: 40px;
+	padding: 0;
+	min-width: 320px;
+}
+
+.header_logo {
+	width: 56px;
+	margin-left: 13px;
+	position: absolute;
+	top: 40%;
+}
+
+.header_menu {
+	display: none;
+}
+
+.header_lang {
+	font-size: 12px;
+	margin-right: 12px;
+	position: absolute;
+	top: 35%;
+	right: 0;
+}
+
+.main01 {
+	padding-top: 40px;
+}
+
+.main_img01pc {
+	display: none;
+}
+
+.main_img01sp {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.main_txtsp {
+    margin: 40px 0 0 0;
+    height: 50px;
+
+}
+
+.main_txt {
+	font-size: 10px;
+}
+
+.brsp {
+	display: block;
+	margin-top: 10px
+}
+
+.main_title {
+	display: none;
+}
+
+.main_titlesp {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+.share_btn {
+	top: 50px;
+	right: 12px;
+}
+
+.share_btn img {
+    width: 16px;
+}
+
+.facebook_btn {
+	margin-right: 5px;
+}
+
+.pickups_title {
+	font-size: 11.2px;
+}
+
+.pickups_01 li {
+	clear: both;
+	width: 100%;
+	height: auto;
+	padding: 0 3px 3px 3px;
+}
+
+.pickups_02 li {
+	width: 50%;
+}
+
+.pickups_txt {
+	font-size: 12px;
+}
+
+.pickups_sp {
+	display: none;
+}
+
+.pickups_arrow {
+	width: 16px;
+    height: 16px;
+}
+
+.left {
+	padding: 0;
+}
+
+.watch_more {
+	font-size: 10px;
+}
+
+.watch_arrow {
+	margin: -2px 0 0 4px;
+    width: 12px;
+    height: 12px;
+}
+
+.vision {
+	padding: 0;
+	margin: 0;
+}
+
+.vision_title {
+	font-size: 17.6px;
+    padding: 0 0 33px 0;
+}
+
+.vision_message {
+	padding: 38px 0px 42px 0px;
+}
+
+.vision_txt {
+	font-size: 10px;
+	margin: 0;
+}
+
+.vision_extent {
+	font-size: 13.92px;
+}
+
+.banner {
+	padding: 0 0 40px 0;
+}
+.banner ul {
+	padding: 0;
+}
+
+.banner li {
+	width: 100%;
+	padding: 3px 3px 0 3px;
+}
+
+.banner_box {
+	margin-top: -25px;
+}
+
+.banner_title {
+	font-size: 12.8px;
+}
+
+.banner_txt {
+	font-size: 10px;
+	margin: 6px 0 0 0;
+}
+
+.banner_arrow {
+    width: 16px;
+    height: 16px;
+}
+
+.voice {
+	padding: 30px 0 40px 0;
+}
+
+.voice_img {
+	width: 20px;
+    height: auto;
+    position: absolute;
+    left: 132px;
+}
+
+
+.twitter_title {
+	font-size: 10px;
+	padding-left: 20px;
+}
+
+.twitter_account {
+	font-size: 10px;
+}
+
+.tweet_timeline {
+	width: 80%;
+}
+
+.tweet_btn {
+	width: 80%;
+	height: 50px;
+	padding: 8px;
+}
+
+.tweet_img {
+	width: 20px;
+	height: auto;
+	margin: 0;
+}
+
+.tweet_btn p {
+	font-size: 12.8px;
+}
+
+.attention {
+	margin-top: 20px;
+	font-size: 10px;
+}
+
+.footer_menu {
+	padding: 10px 0;
+}
+
+.footer_menu li {
+	margin: 0 0 0 9px;
+	padding: 0;
+
+}
+
+.footer_txt {
+	font-size: 10px;
+	font-family: 
+}
+
+.footer_arrow {
+    width: 12px;
+    height: 12px;
+    margin-bottom: 8px;
+}
+
+.copyright {
+	font-size: 10px;
+	line-height: 40px;
+}
+
+}
